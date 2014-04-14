@@ -1,0 +1,11 @@
+COMMAND: v.in.ogr -o dsn="c:/SigTarea7/puntos1.shp" output="puntos1" min_area=0.0001 snap=-1
+GISDBASE: C:/SigTarea7
+LOCATION: MiProyecto MAPSET: mapas USER: Gaby DATE: Sun Apr 13 19:53:42 2014
+---------------------------------------------------------------------------------
+COMMAND: v.db.addcol "map=puntos1" "columns=cercano INT"
+GISDBASE: C:/SigTarea7
+LOCATION: MiProyecto MAPSET: mapas USER: Gaby DATE: Sun Apr 13 20:20:17 2014
+---------------------------------------------------------------------------------
+COMMAND: v.select ainput="puntos1" atype="point,line,boundary,centroid,area" alayer=1 binput="poligonos2" btype="point,line,boundary,centroid,area" blayer=1 output="puntos5" operator="overlap"
+GISDBASE: C:/SigTarea7
+LOCATION: MiProyecto MAPSET: mapas USER: Gaby DATE: Sun Apr 13 21:03:34 2014

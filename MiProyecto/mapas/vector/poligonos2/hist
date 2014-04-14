@@ -1,0 +1,8 @@
+COMMAND: v.in.ogr -o dsn="c:/SigTarea7/poligonos2.shp" output="poligonos2" min_area=0.0001 snap=-1
+GISDBASE: C:/SigTarea7
+LOCATION: MiProyecto MAPSET: mapas USER: Gaby DATE: Sun Apr 13 19:53:01 2014
+-----------------------------------------------------
+3 polígonos de entrada
+Área total: 1.00171 (3 areas)
+Área solapada: 0 (0 areas)
+Área sin categoría: 0 (0 areas)

@@ -1,0 +1,3 @@
+COMMAND: v.distance from="puntos1" to="lineas1" from_type="point" to_type="point,line,area" from_layer=1 to_layer=1 output="lineas3" dmax=-1 dmin=-1 upload="cat" column="cercano"
+GISDBASE: C:/SigTarea7
+LOCATION: MiProyecto MAPSET: mapas USER: Gaby DATE: Sun Apr 13 20:48:02 2014

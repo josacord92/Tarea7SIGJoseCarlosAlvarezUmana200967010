@@ -1,0 +1,15 @@
+COMMAND: v.overlay ainput="poligonos1" atype="area" alayer=1 binput="poligonos2" btype="area" blayer=1 output="poligonos3" operator="or" olayer=1,0,0 snap=1e-8
+GISDBASE: C:/SigTarea7
+LOCATION: MiProyecto MAPSET: mapas USER: Gaby DATE: Sun Apr 13 20:05:12 2014
+---------------------------------------------------------------------------------
+COMMAND: v.reclass input="poligonos3" output="poligonos8_1740" type="point,line,boundary,centroid" layer=1 column="a_cat"
+GISDBASE: C:/SigTarea7
+LOCATION: MiProyecto MAPSET: mapas USER: Gaby DATE: Sun Apr 13 21:04:33 2014
+---------------------------------------------------------------------------------
+COMMAND: v.extract -d input="poligonos8_1740" output="poligonos8" type="area" layer=1 new=-1
+GISDBASE: C:/SigTarea7
+LOCATION: MiProyecto MAPSET: mapas USER: Gaby DATE: Sun Apr 13 21:04:33 2014
+---------------------------------------------------------------------------------
+COMMAND: v.dissolve "input=poligonos3" "output=poligonos8" "col=a_cat"
+GISDBASE: C:/SigTarea7
+LOCATION: MiProyecto MAPSET: mapas USER: Gaby DATE: Sun Apr 13 21:04:34 2014

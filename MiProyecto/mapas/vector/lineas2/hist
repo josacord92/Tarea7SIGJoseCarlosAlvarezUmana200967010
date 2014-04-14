@@ -1,0 +1,3 @@
+COMMAND: v.in.ogr -o dsn="c:/SigTarea7/lineas2.shp" output="lineas2" min_area=0.0001 snap=-1
+GISDBASE: C:/SigTarea7
+LOCATION: MiProyecto MAPSET: mapas USER: Gaby DATE: Sun Apr 13 19:53:30 2014

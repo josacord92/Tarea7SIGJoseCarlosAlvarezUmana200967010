@@ -1,0 +1,1 @@
+1/lineas1 lineas1 cat $GISDBASE/$LOCATION_NAME/$MAPSET/dbf/ dbf

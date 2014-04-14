@@ -1,0 +1,7 @@
+COMMAND: v.in.ogr -o dsn="c:/SigTarea7/lineas1.shp" output="lineas1" min_area=0.0001 snap=-1
+GISDBASE: C:/SigTarea7
+LOCATION: MiProyecto MAPSET: mapas USER: Gaby DATE: Sun Apr 13 19:53:20 2014
+---------------------------------------------------------------------------------
+COMMAND: v.db.addcol "map=lineas1" "columns=cercano INT"
+GISDBASE: C:/SigTarea7
+LOCATION: MiProyecto MAPSET: mapas USER: Gaby DATE: Sun Apr 13 20:16:32 2014
